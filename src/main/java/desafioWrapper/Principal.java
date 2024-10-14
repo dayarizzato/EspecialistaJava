@@ -7,6 +7,7 @@ public class Principal {
         tv.mudarCanal(1);
         tv.mudarCanal(1);
 
+
         tv.mudarVolume(2);
         tv.mudarVolume(2);
     }
