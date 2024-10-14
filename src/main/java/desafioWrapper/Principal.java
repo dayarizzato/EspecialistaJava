@@ -4,6 +4,7 @@ public class Principal {
     public static void main(String[] args) {
         Televisor tv = new Televisor();
 
+        System.out.println("teste");
         tv.mudarCanal(1);
         tv.mudarCanal(1);
 
