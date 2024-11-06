@@ -7,7 +7,7 @@ public class Turma {
 
     public void imprimirAlunos(){
         for (Alunos alunos : aluno) {
-            if(aluno != null) System.out.printf("%s (%d anos)%n");
+            if(aluno != null) System.out.printf("%s (%d anos)%n", alunos.nome, alunos.idade);
         }
     }
 }
