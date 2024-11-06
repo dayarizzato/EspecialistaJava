@@ -19,10 +19,6 @@ public class Principal {
 
         turma1.aluno[1] = aluno2;
 
-        for(int i = 0; i < turma1.aluno.length; i++){
-            if(turma1.aluno[i] != null){
-                System.out.printf("%d - %s (%d anos)%n", i, turma1.aluno[i].nome, turma1.aluno[i].idade );
-            }
-        }
+        turma1.imprimirAlunos();
     }
 }
